@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# data
+#data/*.csv
+#data/*.xls
+#data/*.xlsx
+#data/*.data
+#data/processed_data/
+#data/modelfiles
+
+# html
+*.html
+
+#others
+.DS_Store
+
+# ipython
+.ipynb_checkpoints/
+
+#pycharm
+.idea/
+__pycache__/
+
+
