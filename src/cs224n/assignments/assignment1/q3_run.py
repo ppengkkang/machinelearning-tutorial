@@ -2,14 +2,14 @@
 
 import random
 import numpy as np
-from utils.treebank import StanfordSentiment
+from src.cs224n.assignments.assignment1.utils.treebank import StanfordSentiment
 import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
 import time
+from src.cs224n.assignments.assignment1.q3_word2vec import *
+from src.cs224n.assignments.assignment1.q3_sgd import *
 
-from q3_word2vec import *
-from q3_sgd import *
 
 # Reset the random seed to make sure that everyone gets the same results
 random.seed(314)

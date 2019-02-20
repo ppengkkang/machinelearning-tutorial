@@ -7,10 +7,10 @@ import matplotlib.pyplot as plt
 matplotlib.use('agg')
 import itertools
 
-from utils.treebank import StanfordSentiment
+from src.cs224n.assignments.assignment1.utils.treebank import StanfordSentiment
 import utils.glove as glove
 
-from q3_sgd import load_saved_params, sgd
+from src.cs224n.assignments.assignment1.q3_sgd import load_saved_params, sgd
 
 # We will use sklearn here because it will run faster than implementing
 # ourselves. However, for other parts of this assignment you must implement

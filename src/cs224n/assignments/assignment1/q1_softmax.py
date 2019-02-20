@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def softmax(x):
     """Compute the softmax function for each row of the input x.
 
@@ -29,6 +28,7 @@ def softmax(x):
     orig_shape = x.shape
 
     if len(x.shape) > 1:
+        pass
         # Matrix
         ### YOUR CODE HERE
 

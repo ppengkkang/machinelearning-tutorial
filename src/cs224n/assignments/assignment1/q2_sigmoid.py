@@ -18,7 +18,8 @@ def sigmoid(x):
 
     ### END YOUR CODE
 
-    return s
+    #return s
+    return ""
 
 
 def sigmoid_grad(s):
