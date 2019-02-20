@@ -3,10 +3,10 @@ import time
 import tensorflow as tf
 import pickle
 
-from model import Model
-from q2_initialization import xavier_weight_init
-from utils.general_utils import Progbar
-from utils.parser_utils import minibatches, load_and_preprocess_data
+from src.cs224n.assignments.assignment2.model import Model
+from src.cs224n.assignments.assignment2.q2_initialization import xavier_weight_init
+from src.cs224n.assignments.assignment2.utils.general_utils import Progbar
+from src.cs224n.assignments.assignment2.utils.parser_utils import minibatches, load_and_preprocess_data
 
 
 class Config(object):

@@ -19,11 +19,11 @@ import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 
-from util import Progbar, minibatches
-from model import Model
+from src.cs224n.assignments.assignment3.util import Progbar, minibatches
+from src.cs224n.assignments.assignment3.model import Model
 
-from q3_gru_cell import GRUCell
-from q2_rnn_cell import RNNCell
+from src.cs224n.assignments.assignment3.q3_gru_cell import GRUCell
+from src.cs224n.assignments.assignment3.q2_rnn_cell import RNNCell
 
 matplotlib.use('TkAgg')
 logger = logging.getLogger("hw3.q3")

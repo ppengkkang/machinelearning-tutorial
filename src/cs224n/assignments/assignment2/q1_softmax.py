@@ -1,6 +1,6 @@
 import numpy as np
 import tensorflow as tf
-from utils.general_utils import test_all_close
+from src.cs224n.assignments.assignment2.utils.general_utils import test_all_close
 
 
 def softmax(x):

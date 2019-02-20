@@ -4,7 +4,7 @@
 Common definitions for NER
 """
 
-from util import one_hot
+from src.cs224n.assignments.assignment3.util import one_hot
 
 LBLS = [
     "PER",

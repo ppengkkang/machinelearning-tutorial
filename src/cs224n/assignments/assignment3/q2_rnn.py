@@ -16,12 +16,12 @@ from datetime import datetime
 import tensorflow as tf
 import numpy as np
 
-from util import print_sentence, write_conll, read_conll
-from data_util import load_and_preprocess_data, load_embeddings, ModelHelper
-from ner_model import NERModel
-from defs import LBLS
-from q2_rnn_cell import RNNCell
-from q3_gru_cell import GRUCell
+from src.cs224n.assignments.assignment3.util import print_sentence, write_conll, read_conll
+from src.cs224n.assignments.assignment3.data_util import load_and_preprocess_data, load_embeddings, ModelHelper
+from src.cs224n.assignments.assignment3.ner_model import NERModel
+from src.cs224n.assignments.assignment3.defs import LBLS
+from src.cs224n.assignments.assignment3.q2_rnn_cell import RNNCell
+from src.cs224n.assignments.assignment3.q3_gru_cell import GRUCell
 
 logger = logging.getLogger("hw3.q2")
 logger.setLevel(logging.DEBUG)

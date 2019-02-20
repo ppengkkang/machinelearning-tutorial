@@ -3,10 +3,10 @@ import time
 import numpy as np
 import tensorflow as tf
 
-from q1_softmax import softmax
-from q1_softmax import cross_entropy_loss
-from model import Model
-from utils.general_utils import get_minibatches
+from src.cs224n.assignments.assignment2.q1_softmax import softmax
+from src.cs224n.assignments.assignment2.q1_softmax import cross_entropy_loss
+from src.cs224n.assignments.assignment2.model import Model
+from src.cs224n.assignments.assignment2.utils.general_utils import get_minibatches
 
 
 class Config(object):
